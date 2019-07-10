@@ -68,6 +68,7 @@ This repo includes code for the following models:
         - Affine
         - Sigmoid
         - Leaky ReLU
+        - ELU
     * Models
         - Bernoulli variational autoencoder
         - Wasserstein GAN with gradient penalty
@@ -111,6 +112,7 @@ This repo includes code for the following models:
 
 10. **Preprocessing**
     - Discrete Fourier transform (1D signals)
+    - Discrete cosine transform (type-II) (1D signals)
     - Bilinear interpolation (2D signals)
     - Nearest neighbor interpolation (1D and 2D signals)
     - Autocorrelation (1D signals)
@@ -121,6 +123,7 @@ This repo includes code for the following models:
     - One-hot encoding / decoding
     - Huffman coding / decoding
     - Term frequency-inverse document frequency encoding
+    - MFCC encoding
 
 11. **Utilities**
     - Similarity kernels
@@ -136,3 +139,5 @@ that your models are written with just the [Python standard
 library](https://docs.python.org/3/library/) and [numpy](https://www.numpy.org/). The
 [SciPy library](https://scipy.github.io/devdocs/) is also permitted under special
 circumstances ;)
+
+See full contributing guidelines [here](./CONTRIBUTING.md). 
